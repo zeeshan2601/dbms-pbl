@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/[...path].js": {
+      "includeFiles": ["backend/**", "node_modules/sql.js/dist/**"]
+    }
+  }
+}
